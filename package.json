@@ -1,0 +1,14 @@
+{
+	"name": "vscstore",
+	"version": "1.0.9",
+	"main": "index.ts",
+	"author": "Kyle Schwartz",
+	"license": "MIT",
+	"type": "module",
+	"bin": "./index.js",
+	"engines": {
+		"node": ">=14"
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
