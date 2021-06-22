@@ -42,5 +42,11 @@ const content = JSON.stringify(
 				content
 			);
 			break;
+		case "linux":
+			fs.writeFileSync(
+				join(homedir(), ".config", "VSCodium", "product.json"),
+				content
+			);
+			break;
 	}
 })();
